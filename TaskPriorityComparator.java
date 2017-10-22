@@ -1,13 +1,13 @@
 /*	
- File	Name: Lab Assignment 04	– ToDoList Manager Version 2
- Course Name: CST8132 300	
- Lab Section: CST8132 302	
- Student Name:	Fahim Farque
- Date:	Friday	December 4, 2015
+Â File	Name: Lab Assignment 04	â€“ ToDoList Manager Version 2
+Â Course Name: CST8132 300	
+Â Lab Section: CST8132 302	
+Â Student Name:	Fahim Farque
+Â Date:	Friday	December 4, 2015
 
  Source: Stanley Pieda (2015) personal communication
- 
- */
+Â 
+Â */
 package task;
 
 import java.util.Comparator;
@@ -36,7 +36,7 @@ public class TaskPriorityComparator implements Comparator<Task>{
 			priority = 3;
 			break;
 		default: // Future-Course-ToDo: Change Priority from String to an enum
-			priority = 3;
+			priority = 0;
 			break;
 		}
 		return priority;
